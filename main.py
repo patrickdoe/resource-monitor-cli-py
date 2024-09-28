@@ -49,12 +49,9 @@ def quit_app():
 def input_error():
     print('|\n|   Input error, try again...')
     input('|   Press enter button to continue...')
-
-while True:
-    display_menu()
-    userInput = input('|   User choice: ')
     
-    if userInput == "1":
+def menu_selections():
+        if userInput == "1":
         option1_monitor()
     elif userInput == "2":
         option2_show_monitor()
@@ -70,3 +67,8 @@ while True:
         quit_app()
     else:
         input_error()
+
+while True:
+    display_menu()
+    userInput = input('|   User choice: ')
+    menu_selections()
