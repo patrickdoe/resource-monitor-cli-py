@@ -12,32 +12,32 @@ def display_menu():
     
 def option1_monitor():
     print('|\n|   * MONITORING ACTIVATED! *')
-    input('|   Press enter button to continue...')
+    input(')>> Press enter button to continue...')
 
 def option2_show_monitor():
     print('|\n|   LIVE MONITOR VALUES')
     print('|   -------------------')
-    input('|   Press enter button to continue...')
+    input(')>> Press enter button to continue...')
 
 def option3_create_alarms():
     print('|\n|   CREATE NEW ALARMS')
     print('|   -----------------')
-    input('|   Press enter button to continue...')
+    input(')>> Press enter button to continue...')
 
 def option4_show_alarms():
     print('|\n|   SHOW ALARMS')
     print('|   -----------')
-    input('|   Press enter button to continue...')
+    input(')>> Press enter button to continue...')
     
 def option5_activate_alarms():
     print('|\n|   MONITOR ALARM(S)')
     print('|   ----------------')
-    input('|   Press enter button to continue...')
+    input(')>> Press enter button to continue...')
     
 def option6_remove_alarms():
     print('|\n|   REMOVE ALARM(S)')
     print('|   ---------------')
-    input('|   Press enter button to continue...')
+    input(')>> Press enter button to continue...')
     
 def quit_app():
     goodbye = '!_________________________________________________________________________________________________ CLOSING APP!'
@@ -48,10 +48,10 @@ def quit_app():
     
 def input_error():
     print('|\n|   Input error, try again...')
-    input('|   Press enter button to continue...')
+    input(')>> Press enter button to continue...')
     
 def menu_selections():
-        if userInput == "1":
+    if userInput == "1":
         option1_monitor()
     elif userInput == "2":
         option2_show_monitor()
