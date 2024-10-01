@@ -1,5 +1,6 @@
 import os
 import time
+from livemonitor import *
 
 #Open and store the content within greetings.txt to a variable before printing it.
 f = open('greeting.txt', 'r', encoding="utf8")
@@ -15,8 +16,7 @@ def option1_monitor():
     input(')>> Press enter button to continue...')
 
 def option2_show_monitor():
-    print('|\n|   LIVE MONITOR VALUES')
-    print('|   -------------------')
+    system_usage()
     input(')>> Press enter button to continue...')
 
 def option3_create_alarms():
@@ -40,7 +40,7 @@ def option6_remove_alarms():
     input(')>> Press enter button to continue...')
     
 def quit_app():
-    goodbye = '!_________________________________________________________________________________________________ CLOSING APP!'
+    goodbye = '!_________________________________________________________________________________________________ CLOSING APP!\n\n'
     for char in goodbye:
         print(char, end='', flush=True)
         time.sleep(0.02)
