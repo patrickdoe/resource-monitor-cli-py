@@ -3,9 +3,18 @@ import time
 from livemonitor import *
 
 #Open and store the content within greetings.txt to a variable before printing it.
-f = open('greeting.txt', 'r', encoding="utf8")
-greetings = f.read()
-f.close()
+try:
+    f = open('greeting.txt', 'r', encoding="utf8")
+    greetings = f.read()
+    f.close()
+except FileNotFoundError:
+    print("Error: The file 'greeting.txt' was not found.")
+except OSError:
+    print("Error: An OS error occurred while reading the file.")
+except IOError:
+    print("Error: An I/O error occurred while reading the file.")
+except Exception as e:
+    print(f"Something went wrong! (Unexpected error: {e})")
 
 alarm_thresholds = [
     ("cpu", None),
@@ -64,7 +73,7 @@ def option4_show_alarms():
     clear_screen()
     print('\n USER SET THRESHOLDS')
     print(' -------------------')
-    # Sort the thresholds, lowest first, if value is "None" then place last.
+    # Sort the thresholds based on type
     sorted_alarms = sorted(alarm_thresholds, key=lambda x: x[0].upper())
     for alarm in sorted_alarms:
         alarm_type = alarm[0].upper()
@@ -103,9 +112,44 @@ def option5_activate_alarms():
             input(' Press enter to return to the menu...')
     
 def option6_remove_alarms():
-    print('|\n|   REMOVE ALARM(S)')
-    print('|   ---------------')
-    input(')>> Press enter button to continue...')
+    while True:
+        clear_screen()
+        print('\n REMOVE ACTIVE ALARM(S)')
+        print(' ----------------------')
+        set_thresholds = [(idx, alarm) for idx, alarm in enumerate(alarm_thresholds) if alarm[1] is not None]
+        
+        if not set_thresholds:
+            print(' No threshold(s) found. \n Going back to main menu...')
+            time.sleep(2)
+            break
+        
+        for idx, (alarm_type, threshold) in set_thresholds:
+            print(f' {idx}. Remove {alarm_type.upper():>8} Threshold ({threshold})')
+
+        print('\n 0. Remove ALL Thresholds')
+        print(' 9. Go back to the main menu')
+
+        user_choice = input('\n User choice: ')
+        
+        if user_choice.isdigit():
+            user_choice = int(user_choice)
+
+            if 1 <= user_choice <= len(set_thresholds):
+                alarm_to_remove = set_thresholds[user_choice - 1]
+                alarm_type = alarm_to_remove[1][0]
+                alarm_thresholds[alarm_to_remove[0]] = (alarm_type, None)
+                print(f' {alarm_type.upper()} Threshold removed.')
+            elif user_choice == 0:
+                alarm_thresholds[:] = [(alarm[0], None) for alarm in alarm_thresholds]  # Reset all thresholds to None
+                print(' All alarms has been removed.')
+            elif user_choice == 9:
+                break
+            else:
+                print(' Input error, try again...')
+        else:
+            print(' Input error, please enter a valid number.')
+        
+            time.sleep(2)
     
 def quit_app():
     print('|>> Closing app in: ')
