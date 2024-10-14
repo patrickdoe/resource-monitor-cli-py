@@ -28,6 +28,7 @@ def system_usage():
         print(' ------------------')
         print(f' {os.uname().nodename} @ {os.uname().sysname} {os.uname().release} ({os.uname().machine})\n')
         
+        print('\n>>> Press CTRL+C to return to main menu.')
         time.sleep(1)
         
 def usage_report():

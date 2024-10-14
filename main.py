@@ -35,8 +35,13 @@ def option1_monitor():
     input(')>> Press enter button to continue...')
 
 def option2_show_monitor():
-    system_usage()
-    input(')>> Press enter button to continue...')
+    try:
+        while True:
+            system_usage()
+            time.sleep(1)
+    except KeyboardInterrupt:
+        print(')>> Sending you back to the main menu...')
+        time.sleep(2)
 
 def option3_create_alarms():
     while True:
