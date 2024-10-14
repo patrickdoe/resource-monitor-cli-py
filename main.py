@@ -16,6 +16,10 @@ except IOError:
 except Exception as e:
     print(f"Something went wrong! (Unexpected error: {e})")
 
+# Make sure monitoring is OFF by default.
+monitoring_activated = False
+
+# Pre-configured thresholds for testing.
 alarm_thresholds = [
     ("cpu", None),
     ("ram", 10),
@@ -31,10 +35,19 @@ def display_menu():
     print(greetings)
     
 def option1_monitor():
+    # Activate monitoring through a boolean change.
+    global monitoring_activated
+    monitoring_activated = True
     print('|\n|   * MONITORING ACTIVATED! *')
-    input(')>> Press enter button to continue...')
+    input('|\n|)>> Press enter button to continue...')
 
 def option2_show_monitor():
+    # Check if monitoring has been activated.
+    if not monitoring_activated:
+        print('|\n|   You need to activate monitoring first!')
+        input('|\n|)>> Press enter button to return to the menu...')
+        return
+    
     try:
         while True:
             system_usage()
