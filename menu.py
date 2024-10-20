@@ -108,9 +108,10 @@ class Menu:
                 time.sleep(2)
                 break
             
-            # List the filtered list with thresholds
-            for idx, (alarm_type, threshold) in set_thresholds:
-                print(f' {idx + 1}. Remove {alarm_type.upper():>8} Threshold ({threshold})')
+            # List the filtered list with thresholds.
+            for display_idx, (internal_idx, (alarm_type, threshold)) in enumerate(set_thresholds, start=1):
+                print(f' {display_idx}. Remove {alarm_type.upper():>8} Threshold ({threshold})')
+
 
             print('\n 0. Remove ALL Thresholds')
             print(' 9. Go back to the main menu')
