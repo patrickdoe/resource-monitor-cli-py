@@ -1,4 +1,6 @@
 import json
+import time
+import os
 from datetime import datetime
 
 class Alarm:
@@ -43,5 +45,9 @@ class Alarm:
         try:
             with open(self.thresholds_file, 'r') as file:
                 self.thresholds = json.load(file)
+                
+            os.system('cls' if os.name == 'nt' else 'clear')
+            print('JSON file found! Loading previously configured alarms...')
+            time.sleep(3)
         except(FileNotFoundError, json.JSONDecodeError):
             pass # Uses default pre-defined thresholds if file doesn't exist.
