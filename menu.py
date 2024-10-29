@@ -81,10 +81,18 @@ class Menu:
 
                 for alarm in self.alarm_thresholds.show_alarms():
                     alarm_type, threshold = alarm
-                    # Make sure to only display thresholds with a set alarm value other than None that has triggered set alarm.
-                    if threshold is not None and current_usage[alarm_type] > threshold:
-                        print(f'\n *** ALERT: {alarm_type.upper()} usage has exceeded the threshold! '
-                            f'Current: {current_usage[alarm_type]}%, Threshold: {threshold}%')
+                    
+                    if threshold is not None:
+                        # Trigger battery threshold when BELOW threshold.
+                        if alarm_type == "battery":
+                            if current_usage[alarm_type] < threshold:
+                                print(f'\n *** ALERT: {alarm_type.upper()} usage is below the threshold!'
+                                    f' Current: {current_usage[alarm_type]}%, Threshold: {threshold}')
+                        # Trigger the rest of the alarms ABOVE the user set threshold.
+                        else:
+                            if current_usage[alarm_type] > threshold:
+                                print(f'\n *** ALERT: {alarm_type.upper()} usage has exceeded the threshold!'
+                                    f' Current: {current_usage[alarm_type]}%, Threshold: {threshold}')
 
                 print('\n Press Ctrl+C to stop monitoring...')
                 time.sleep(1)
