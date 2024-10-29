@@ -1,13 +1,16 @@
 import os
 import time
+import json
+from datetime import datetime
 from livemonitor import SystemMonitor
 from alarm import Alarm
 
 class Menu:
-    def __init__(self, greetings, alarm_thresholds):
+    def __init__(self, greetings, alarm_thresholds, log_file='alarm_log.txt'):
         self.greetings = greetings
         self.alarm_thresholds = alarm_thresholds
         self.monitor = SystemMonitor()
+        self.log_file = log_file
 
     def clear_screen(self):
         os.system('cls' if os.name == 'nt' else 'clear')
@@ -66,6 +69,12 @@ class Menu:
             print(f' {alarm[0].upper():<10} = {alarm[1] if alarm[1] is not None else "Not Set":<10}')
         input('\n Press enter to go back...')
 
+    def log_alarm(self, message):
+        # Message to log whenever there's an alarm.
+        with open(self.log_file, 'a') as file:
+            log_entry = f'{datetime.now().strftime('%Y-%m-%d %H:%M:%S')} - {message}\n'
+            file.write(log_entry)
+
     def activate_alarms(self):
         print('|\n|   MONITOR ALARM(S)')
         print('|   ----------------')
@@ -86,13 +95,17 @@ class Menu:
                         # Trigger battery threshold when BELOW threshold.
                         if alarm_type == "battery":
                             if current_usage[alarm_type] < threshold:
-                                print(f'\n *** ALERT: {alarm_type.upper()} usage is below the threshold!'
+                                message = (f'\n *** ALERT: {alarm_type.upper()} usage is below the threshold!'
                                     f' Current: {current_usage[alarm_type]}%, Threshold: {threshold}')
+                                print(f'{message}')
+                                self.log_alarm(message)
                         # Trigger the rest of the alarms ABOVE the user set threshold.
                         else:
                             if current_usage[alarm_type] > threshold:
-                                print(f'\n *** ALERT: {alarm_type.upper()} usage has exceeded the threshold!'
+                                message = (f'\n *** ALERT: {alarm_type.upper()} usage has exceeded the threshold!'
                                     f' Current: {current_usage[alarm_type]}%, Threshold: {threshold}')
+                                print(f'{message}')
+                                self.log_alarm(message)
 
                 print('\n Press Ctrl+C to stop monitoring...')
                 time.sleep(1)
@@ -134,7 +147,7 @@ class Menu:
                     self.alarm_thresholds.remove_alarm(alarm_type)
                     print(f' {alarm_type.upper()} Threshold removed.')
                 elif user_choice == 0:
-                    self.alarm_thresholds.thresholds = [(alarm[0], None) for alarm in self.alarm_thresholds.thresholds]
+                    self.alarm_thresholds.remove_all_alarms()
                     print(' All alarms have been removed.')
                 elif user_choice == 9:
                     break

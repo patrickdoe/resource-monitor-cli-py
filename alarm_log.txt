@@ -1,0 +1,302 @@
+2024-10-29 19:54:33 - 
+ *** ALERT: RAM usage has exceeded the threshold! Current: 18.3%, Threshold: 5
+2024-10-29 19:54:34 - 
+ *** ALERT: RAM usage has exceeded the threshold! Current: 18.3%, Threshold: 5
+2024-10-29 19:54:35 - 
+ *** ALERT: RAM usage has exceeded the threshold! Current: 18.2%, Threshold: 5
+2024-10-29 19:54:36 - 
+ *** ALERT: RAM usage has exceeded the threshold! Current: 18.3%, Threshold: 5
+2024-10-29 19:54:37 - 
+ *** ALERT: RAM usage has exceeded the threshold! Current: 18.3%, Threshold: 5
+2024-10-29 19:54:38 - 
+ *** ALERT: RAM usage has exceeded the threshold! Current: 18.3%, Threshold: 5
+2024-10-29 19:54:39 - 
+ *** ALERT: RAM usage has exceeded the threshold! Current: 18.3%, Threshold: 5
+2024-10-29 19:54:40 - 
+ *** ALERT: RAM usage has exceeded the threshold! Current: 18.3%, Threshold: 5
+2024-10-29 19:54:41 - 
+ *** ALERT: RAM usage has exceeded the threshold! Current: 18.3%, Threshold: 5
+2024-10-29 19:54:42 - 
+ *** ALERT: RAM usage has exceeded the threshold! Current: 18.3%, Threshold: 5
+2024-10-29 19:54:43 - 
+ *** ALERT: RAM usage has exceeded the threshold! Current: 18.3%, Threshold: 5
+2024-10-29 19:55:18 - 
+ *** ALERT: BATTERY usage is below the threshold! Current: 78%, Threshold: 90
+2024-10-29 19:55:18 - 
+ *** ALERT: RAM usage has exceeded the threshold! Current: 18.2%, Threshold: 5
+2024-10-29 19:55:19 - 
+ *** ALERT: BATTERY usage is below the threshold! Current: 78%, Threshold: 90
+2024-10-29 19:55:19 - 
+ *** ALERT: RAM usage has exceeded the threshold! Current: 18.2%, Threshold: 5
+2024-10-29 19:55:20 - 
+ *** ALERT: BATTERY usage is below the threshold! Current: 78%, Threshold: 90
+2024-10-29 19:55:20 - 
+ *** ALERT: RAM usage has exceeded the threshold! Current: 18.3%, Threshold: 5
+2024-10-29 19:55:21 - 
+ *** ALERT: BATTERY usage is below the threshold! Current: 78%, Threshold: 90
+2024-10-29 19:55:21 - 
+ *** ALERT: CPU usage has exceeded the threshold! Current: 2.2%, Threshold: 1
+2024-10-29 19:55:21 - 
+ *** ALERT: RAM usage has exceeded the threshold! Current: 18.3%, Threshold: 5
+2024-10-29 19:55:22 - 
+ *** ALERT: BATTERY usage is below the threshold! Current: 78%, Threshold: 90
+2024-10-29 19:55:22 - 
+ *** ALERT: RAM usage has exceeded the threshold! Current: 18.4%, Threshold: 5
+2024-10-29 19:55:23 - 
+ *** ALERT: BATTERY usage is below the threshold! Current: 78%, Threshold: 90
+2024-10-29 19:55:23 - 
+ *** ALERT: RAM usage has exceeded the threshold! Current: 18.3%, Threshold: 5
+2024-10-29 19:55:24 - 
+ *** ALERT: BATTERY usage is below the threshold! Current: 78%, Threshold: 90
+2024-10-29 19:55:24 - 
+ *** ALERT: RAM usage has exceeded the threshold! Current: 18.2%, Threshold: 5
+2024-10-29 19:55:25 - 
+ *** ALERT: BATTERY usage is below the threshold! Current: 78%, Threshold: 90
+2024-10-29 19:55:25 - 
+ *** ALERT: RAM usage has exceeded the threshold! Current: 18.2%, Threshold: 5
+2024-10-29 19:55:26 - 
+ *** ALERT: BATTERY usage is below the threshold! Current: 78%, Threshold: 90
+2024-10-29 19:55:26 - 
+ *** ALERT: CPU usage has exceeded the threshold! Current: 2.1%, Threshold: 1
+2024-10-29 19:55:26 - 
+ *** ALERT: RAM usage has exceeded the threshold! Current: 18.2%, Threshold: 5
+2024-10-29 19:55:27 - 
+ *** ALERT: BATTERY usage is below the threshold! Current: 78%, Threshold: 90
+2024-10-29 19:55:27 - 
+ *** ALERT: RAM usage has exceeded the threshold! Current: 18.2%, Threshold: 5
+2024-10-29 19:55:28 - 
+ *** ALERT: BATTERY usage is below the threshold! Current: 78%, Threshold: 90
+2024-10-29 19:55:28 - 
+ *** ALERT: RAM usage has exceeded the threshold! Current: 18.2%, Threshold: 5
+2024-10-29 19:55:29 - 
+ *** ALERT: BATTERY usage is below the threshold! Current: 78%, Threshold: 90
+2024-10-29 19:55:29 - 
+ *** ALERT: RAM usage has exceeded the threshold! Current: 18.2%, Threshold: 5
+2024-10-29 19:55:30 - 
+ *** ALERT: BATTERY usage is below the threshold! Current: 78%, Threshold: 90
+2024-10-29 19:55:30 - 
+ *** ALERT: RAM usage has exceeded the threshold! Current: 18.2%, Threshold: 5
+2024-10-29 19:55:31 - 
+ *** ALERT: BATTERY usage is below the threshold! Current: 78%, Threshold: 90
+2024-10-29 19:55:31 - 
+ *** ALERT: CPU usage has exceeded the threshold! Current: 2.1%, Threshold: 1
+2024-10-29 19:55:31 - 
+ *** ALERT: RAM usage has exceeded the threshold! Current: 18.3%, Threshold: 5
+2024-10-29 19:55:32 - 
+ *** ALERT: BATTERY usage is below the threshold! Current: 78%, Threshold: 90
+2024-10-29 19:55:32 - 
+ *** ALERT: RAM usage has exceeded the threshold! Current: 18.4%, Threshold: 5
+2024-10-29 19:55:33 - 
+ *** ALERT: BATTERY usage is below the threshold! Current: 78%, Threshold: 90
+2024-10-29 19:55:33 - 
+ *** ALERT: RAM usage has exceeded the threshold! Current: 18.3%, Threshold: 5
+2024-10-29 19:55:34 - 
+ *** ALERT: BATTERY usage is below the threshold! Current: 78%, Threshold: 90
+2024-10-29 19:55:34 - 
+ *** ALERT: RAM usage has exceeded the threshold! Current: 18.2%, Threshold: 5
+2024-10-29 19:55:35 - 
+ *** ALERT: BATTERY usage is below the threshold! Current: 78%, Threshold: 90
+2024-10-29 19:55:36 - 
+ *** ALERT: RAM usage has exceeded the threshold! Current: 18.2%, Threshold: 5
+2024-10-29 19:55:37 - 
+ *** ALERT: BATTERY usage is below the threshold! Current: 78%, Threshold: 90
+2024-10-29 19:55:37 - 
+ *** ALERT: CPU usage has exceeded the threshold! Current: 2.1%, Threshold: 1
+2024-10-29 19:55:37 - 
+ *** ALERT: RAM usage has exceeded the threshold! Current: 18.4%, Threshold: 5
+2024-10-29 19:55:38 - 
+ *** ALERT: BATTERY usage is below the threshold! Current: 78%, Threshold: 90
+2024-10-29 19:55:38 - 
+ *** ALERT: RAM usage has exceeded the threshold! Current: 18.4%, Threshold: 5
+2024-10-29 19:55:39 - 
+ *** ALERT: BATTERY usage is below the threshold! Current: 78%, Threshold: 90
+2024-10-29 19:55:39 - 
+ *** ALERT: RAM usage has exceeded the threshold! Current: 18.3%, Threshold: 5
+2024-10-29 19:55:40 - 
+ *** ALERT: BATTERY usage is below the threshold! Current: 78%, Threshold: 90
+2024-10-29 19:55:40 - 
+ *** ALERT: RAM usage has exceeded the threshold! Current: 18.3%, Threshold: 5
+2024-10-29 19:55:41 - 
+ *** ALERT: BATTERY usage is below the threshold! Current: 78%, Threshold: 90
+2024-10-29 19:55:41 - 
+ *** ALERT: RAM usage has exceeded the threshold! Current: 18.2%, Threshold: 5
+2024-10-29 19:55:42 - 
+ *** ALERT: BATTERY usage is below the threshold! Current: 78%, Threshold: 90
+2024-10-29 19:55:42 - 
+ *** ALERT: CPU usage has exceeded the threshold! Current: 2.1%, Threshold: 1
+2024-10-29 19:55:42 - 
+ *** ALERT: RAM usage has exceeded the threshold! Current: 18.3%, Threshold: 5
+2024-10-29 19:55:43 - 
+ *** ALERT: BATTERY usage is below the threshold! Current: 78%, Threshold: 90
+2024-10-29 19:55:43 - 
+ *** ALERT: RAM usage has exceeded the threshold! Current: 18.3%, Threshold: 5
+2024-10-29 19:55:44 - 
+ *** ALERT: BATTERY usage is below the threshold! Current: 78%, Threshold: 90
+2024-10-29 19:55:44 - 
+ *** ALERT: RAM usage has exceeded the threshold! Current: 18.3%, Threshold: 5
+2024-10-29 20:08:32 - 
+ *** ALERT: BATTERY usage is below the threshold! Current: 76%, Threshold: 90
+2024-10-29 20:08:32 - 
+ *** ALERT: CPU usage has exceeded the threshold! Current: 1.1%, Threshold: 1
+2024-10-29 20:08:32 - 
+ *** ALERT: DISK usage has exceeded the threshold! Current: 4.5%, Threshold: 1
+2024-10-29 20:08:32 - 
+ *** ALERT: RAM usage has exceeded the threshold! Current: 18.4%, Threshold: 5
+2024-10-29 20:08:33 - 
+ *** ALERT: BATTERY usage is below the threshold! Current: 76%, Threshold: 90
+2024-10-29 20:08:33 - 
+ *** ALERT: DISK usage has exceeded the threshold! Current: 4.5%, Threshold: 1
+2024-10-29 20:08:33 - 
+ *** ALERT: RAM usage has exceeded the threshold! Current: 18.3%, Threshold: 5
+2024-10-29 20:08:34 - 
+ *** ALERT: BATTERY usage is below the threshold! Current: 76%, Threshold: 90
+2024-10-29 20:08:34 - 
+ *** ALERT: CPU usage has exceeded the threshold! Current: 1.1%, Threshold: 1
+2024-10-29 20:08:34 - 
+ *** ALERT: DISK usage has exceeded the threshold! Current: 4.5%, Threshold: 1
+2024-10-29 20:08:34 - 
+ *** ALERT: RAM usage has exceeded the threshold! Current: 18.4%, Threshold: 5
+2024-10-29 20:08:35 - 
+ *** ALERT: BATTERY usage is below the threshold! Current: 76%, Threshold: 90
+2024-10-29 20:08:35 - 
+ *** ALERT: CPU usage has exceeded the threshold! Current: 2.1%, Threshold: 1
+2024-10-29 20:08:35 - 
+ *** ALERT: DISK usage has exceeded the threshold! Current: 4.5%, Threshold: 1
+2024-10-29 20:08:35 - 
+ *** ALERT: RAM usage has exceeded the threshold! Current: 18.4%, Threshold: 5
+2024-10-29 20:08:36 - 
+ *** ALERT: BATTERY usage is below the threshold! Current: 76%, Threshold: 90
+2024-10-29 20:08:36 - 
+ *** ALERT: DISK usage has exceeded the threshold! Current: 4.5%, Threshold: 1
+2024-10-29 20:08:36 - 
+ *** ALERT: RAM usage has exceeded the threshold! Current: 18.5%, Threshold: 5
+2024-10-29 20:08:37 - 
+ *** ALERT: BATTERY usage is below the threshold! Current: 76%, Threshold: 90
+2024-10-29 20:08:37 - 
+ *** ALERT: DISK usage has exceeded the threshold! Current: 4.5%, Threshold: 1
+2024-10-29 20:08:37 - 
+ *** ALERT: RAM usage has exceeded the threshold! Current: 18.3%, Threshold: 5
+2024-10-29 20:08:38 - 
+ *** ALERT: BATTERY usage is below the threshold! Current: 76%, Threshold: 90
+2024-10-29 20:08:38 - 
+ *** ALERT: DISK usage has exceeded the threshold! Current: 4.5%, Threshold: 1
+2024-10-29 20:08:38 - 
+ *** ALERT: RAM usage has exceeded the threshold! Current: 18.3%, Threshold: 5
+2024-10-29 20:08:39 - 
+ *** ALERT: BATTERY usage is below the threshold! Current: 76%, Threshold: 90
+2024-10-29 20:08:39 - 
+ *** ALERT: DISK usage has exceeded the threshold! Current: 4.5%, Threshold: 1
+2024-10-29 20:08:39 - 
+ *** ALERT: RAM usage has exceeded the threshold! Current: 18.3%, Threshold: 5
+2024-10-29 20:08:40 - 
+ *** ALERT: BATTERY usage is below the threshold! Current: 76%, Threshold: 90
+2024-10-29 20:08:40 - 
+ *** ALERT: CPU usage has exceeded the threshold! Current: 2.0%, Threshold: 1
+2024-10-29 20:08:40 - 
+ *** ALERT: DISK usage has exceeded the threshold! Current: 4.5%, Threshold: 1
+2024-10-29 20:08:40 - 
+ *** ALERT: RAM usage has exceeded the threshold! Current: 18.4%, Threshold: 5
+2024-10-29 20:18:25 - 
+ *** ALERT: BATTERY usage is below the threshold! Current: 75%, Threshold: 90
+2024-10-29 20:18:25 - 
+ *** ALERT: DISK usage has exceeded the threshold! Current: 4.5%, Threshold: 1
+2024-10-29 20:18:25 - 
+ *** ALERT: RAM usage has exceeded the threshold! Current: 18.7%, Threshold: 10
+2024-10-29 20:18:26 - 
+ *** ALERT: BATTERY usage is below the threshold! Current: 75%, Threshold: 90
+2024-10-29 20:18:26 - 
+ *** ALERT: DISK usage has exceeded the threshold! Current: 4.5%, Threshold: 1
+2024-10-29 20:18:26 - 
+ *** ALERT: RAM usage has exceeded the threshold! Current: 18.7%, Threshold: 10
+2024-10-29 20:18:27 - 
+ *** ALERT: BATTERY usage is below the threshold! Current: 75%, Threshold: 90
+2024-10-29 20:18:27 - 
+ *** ALERT: CPU usage has exceeded the threshold! Current: 2.4%, Threshold: 1
+2024-10-29 20:18:27 - 
+ *** ALERT: DISK usage has exceeded the threshold! Current: 4.5%, Threshold: 1
+2024-10-29 20:18:27 - 
+ *** ALERT: RAM usage has exceeded the threshold! Current: 18.6%, Threshold: 10
+2024-10-29 20:18:28 - 
+ *** ALERT: BATTERY usage is below the threshold! Current: 75%, Threshold: 90
+2024-10-29 20:18:28 - 
+ *** ALERT: DISK usage has exceeded the threshold! Current: 4.5%, Threshold: 1
+2024-10-29 20:18:28 - 
+ *** ALERT: RAM usage has exceeded the threshold! Current: 18.6%, Threshold: 10
+2024-10-29 20:18:29 - 
+ *** ALERT: BATTERY usage is below the threshold! Current: 75%, Threshold: 90
+2024-10-29 20:18:29 - 
+ *** ALERT: DISK usage has exceeded the threshold! Current: 4.5%, Threshold: 1
+2024-10-29 20:18:29 - 
+ *** ALERT: RAM usage has exceeded the threshold! Current: 18.6%, Threshold: 10
+2024-10-29 20:18:30 - 
+ *** ALERT: BATTERY usage is below the threshold! Current: 75%, Threshold: 90
+2024-10-29 20:18:30 - 
+ *** ALERT: DISK usage has exceeded the threshold! Current: 4.5%, Threshold: 1
+2024-10-29 20:18:30 - 
+ *** ALERT: RAM usage has exceeded the threshold! Current: 18.7%, Threshold: 10
+2024-10-29 20:18:31 - 
+ *** ALERT: BATTERY usage is below the threshold! Current: 75%, Threshold: 90
+2024-10-29 20:18:31 - 
+ *** ALERT: DISK usage has exceeded the threshold! Current: 4.5%, Threshold: 1
+2024-10-29 20:18:31 - 
+ *** ALERT: RAM usage has exceeded the threshold! Current: 18.6%, Threshold: 10
+2024-10-29 20:18:32 - 
+ *** ALERT: BATTERY usage is below the threshold! Current: 75%, Threshold: 90
+2024-10-29 20:18:32 - 
+ *** ALERT: CPU usage has exceeded the threshold! Current: 2.0%, Threshold: 1
+2024-10-29 20:18:32 - 
+ *** ALERT: DISK usage has exceeded the threshold! Current: 4.5%, Threshold: 1
+2024-10-29 20:18:32 - 
+ *** ALERT: RAM usage has exceeded the threshold! Current: 18.7%, Threshold: 10
+2024-10-29 20:18:33 - 
+ *** ALERT: BATTERY usage is below the threshold! Current: 75%, Threshold: 90
+2024-10-29 20:18:33 - 
+ *** ALERT: DISK usage has exceeded the threshold! Current: 4.5%, Threshold: 1
+2024-10-29 20:18:33 - 
+ *** ALERT: RAM usage has exceeded the threshold! Current: 18.7%, Threshold: 10
+2024-10-29 20:19:57 - 
+ *** ALERT: BATTERY usage is below the threshold! Current: 74%, Threshold: 90
+2024-10-29 20:19:57 - 
+ *** ALERT: CPU usage has exceeded the threshold! Current: 2.0%, Threshold: 1
+2024-10-29 20:19:57 - 
+ *** ALERT: RAM usage has exceeded the threshold! Current: 18.5%, Threshold: 10
+2024-10-29 20:19:58 - 
+ *** ALERT: BATTERY usage is below the threshold! Current: 74%, Threshold: 90
+2024-10-29 20:19:58 - 
+ *** ALERT: RAM usage has exceeded the threshold! Current: 18.6%, Threshold: 10
+2024-10-29 20:19:59 - 
+ *** ALERT: BATTERY usage is below the threshold! Current: 74%, Threshold: 90
+2024-10-29 20:19:59 - 
+ *** ALERT: CPU usage has exceeded the threshold! Current: 2.4%, Threshold: 1
+2024-10-29 20:19:59 - 
+ *** ALERT: RAM usage has exceeded the threshold! Current: 18.7%, Threshold: 10
+2024-10-29 20:20:00 - 
+ *** ALERT: BATTERY usage is below the threshold! Current: 74%, Threshold: 90
+2024-10-29 20:20:00 - 
+ *** ALERT: RAM usage has exceeded the threshold! Current: 18.6%, Threshold: 10
+2024-10-29 20:20:01 - 
+ *** ALERT: BATTERY usage is below the threshold! Current: 74%, Threshold: 90
+2024-10-29 20:20:01 - 
+ *** ALERT: RAM usage has exceeded the threshold! Current: 18.5%, Threshold: 10
+2024-10-29 20:20:02 - 
+ *** ALERT: BATTERY usage is below the threshold! Current: 74%, Threshold: 90
+2024-10-29 20:20:02 - 
+ *** ALERT: RAM usage has exceeded the threshold! Current: 18.5%, Threshold: 10
+2024-10-29 20:20:03 - 
+ *** ALERT: BATTERY usage is below the threshold! Current: 74%, Threshold: 90
+2024-10-29 20:20:03 - 
+ *** ALERT: RAM usage has exceeded the threshold! Current: 18.4%, Threshold: 10
+2024-10-29 20:20:04 - 
+ *** ALERT: BATTERY usage is below the threshold! Current: 74%, Threshold: 90
+2024-10-29 20:20:04 - 
+ *** ALERT: CPU usage has exceeded the threshold! Current: 2.2%, Threshold: 1
+2024-10-29 20:20:04 - 
+ *** ALERT: RAM usage has exceeded the threshold! Current: 18.5%, Threshold: 10
+2024-10-29 20:20:05 - 
+ *** ALERT: BATTERY usage is below the threshold! Current: 74%, Threshold: 90
+2024-10-29 20:20:05 - 
+ *** ALERT: RAM usage has exceeded the threshold! Current: 18.5%, Threshold: 10
+2024-10-29 20:20:06 - 
+ *** ALERT: BATTERY usage is below the threshold! Current: 74%, Threshold: 90
+2024-10-29 20:20:06 - 
+ *** ALERT: RAM usage has exceeded the threshold! Current: 18.5%, Threshold: 10
